@@ -54,7 +54,7 @@ const ParticleField = (props: any) => {
         return random.inSphere(new Float32Array(3000), { radius: 1.5 }) as Float32Array;
     }, []);
 
-    useFrame((state, delta) => {
+    useFrame((_, delta) => {
         if (ref.current) {
             ref.current.rotation.x -= delta / 35;
             ref.current.rotation.y -= delta / 45;

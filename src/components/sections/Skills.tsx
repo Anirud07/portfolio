@@ -79,7 +79,7 @@ export const Skills = () => {
                                     </div>
 
                                     <div className="flex flex-wrap gap-2.5">
-                                        {skill.items.map((item, i) => (
+                                        {skill.items.map((item) => (
                                             <span
                                                 key={item}
                                                 className="px-4 py-1.5 text-xs font-semibold rounded-lg bg-white/[0.03] text-gray-400 border border-white/5 transition-all duration-300 hover:bg-white/10 hover:text-white hover:border-white/20 cursor-default"
