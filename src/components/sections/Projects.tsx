@@ -9,7 +9,6 @@ interface Project {
     description: string;
     tech: string[];
     link: string;
-    link: string;
 }
 
 const projects: Project[] = [
